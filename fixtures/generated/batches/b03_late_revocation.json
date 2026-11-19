@@ -1,0 +1,24 @@
+{
+  "authority_lists": [],
+  "batch_id": "B03-late-revocation",
+  "events": [
+    {
+      "event_id": "E-HR2-02",
+      "payload": {
+        "conclusion": "revoke",
+        "event_id": "E-HR2-02",
+        "kind": "grant",
+        "person": "P-1001",
+        "replaces": null,
+        "source": "S-HR2",
+        "source_seq": 2,
+        "valid_from": "2026-01-21",
+        "valid_to": "2026-01-22"
+      },
+      "payload_hash": "5f7e665b045cf53f9134759111d6de159425e6460856af40fe7a2cc75e323d3e",
+      "signature": "933159c0b2ff0310ea074e40a145ea3ad6da0ad2161d89fc4756ac39c1420b45",
+      "source": "S-HR2",
+      "source_seq": 2
+    }
+  ]
+}

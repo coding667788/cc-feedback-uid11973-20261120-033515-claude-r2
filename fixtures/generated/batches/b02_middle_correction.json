@@ -1,0 +1,24 @@
+{
+  "authority_lists": [],
+  "batch_id": "B02-middle-correction",
+  "events": [
+    {
+      "event_id": "E-HR1-02",
+      "payload": {
+        "conclusion": "revoke",
+        "event_id": "E-HR1-02",
+        "kind": "correction",
+        "person": "P-1001",
+        "replaces": "E-HR1-01",
+        "source": "S-HR1",
+        "source_seq": 2,
+        "valid_from": "2026-01-10",
+        "valid_to": "2026-01-20"
+      },
+      "payload_hash": "d01232d3deb43fe6be45b0d9b3ea4044115461adf98c1ed6018deb0bb2399bb6",
+      "signature": "d6f2faa80b800bf8d01c2c92b1c580ac356818f019256970a682334762b4ba62",
+      "source": "S-HR1",
+      "source_seq": 2
+    }
+  ]
+}

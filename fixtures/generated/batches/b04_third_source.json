@@ -1,0 +1,53 @@
+{
+  "authority_lists": [
+    {
+      "area": "ZONE-A",
+      "sources": [
+        "S-HR1",
+        "S-HR2",
+        "S-HR3"
+      ],
+      "valid_from": "2026-02-01",
+      "valid_to": null
+    }
+  ],
+  "batch_id": "B04-third-source",
+  "events": [
+    {
+      "event_id": "E-HR3-01",
+      "payload": {
+        "conclusion": "grant",
+        "event_id": "E-HR3-01",
+        "kind": "grant",
+        "person": "P-1001",
+        "replaces": null,
+        "source": "S-HR3",
+        "source_seq": 1,
+        "valid_from": "2026-02-01",
+        "valid_to": "2026-03-01"
+      },
+      "payload_hash": "159ebb900563e7ad5309fa27a8bd0df82e95bc2c3b29b70810e48cd9fb2bf6d7",
+      "signature": "bdb439df5dbef7e2c8618c4a9dfbebca2c372d8047d2a5c8af1b5ea36d0075f1",
+      "source": "S-HR3",
+      "source_seq": 1
+    },
+    {
+      "event_id": "E-HR1-03",
+      "payload": {
+        "conclusion": "grant",
+        "event_id": "E-HR1-03",
+        "kind": "grant",
+        "person": "P-1001",
+        "replaces": null,
+        "source": "S-HR1",
+        "source_seq": 3,
+        "valid_from": "2026-02-01",
+        "valid_to": "2026-03-01"
+      },
+      "payload_hash": "a34273a4d959ccfd1dbf98d1782d12b6cd6308fb4e6bd3f32db608d02f755306",
+      "signature": "1f20b844460980d2ca5c647e1e5d0c7001bd2a84858bb2a5661e1c8b5ba18f2a",
+      "source": "S-HR1",
+      "source_seq": 3
+    }
+  ]
+}

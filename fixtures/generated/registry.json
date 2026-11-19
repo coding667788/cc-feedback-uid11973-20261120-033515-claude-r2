@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "name": "Human Resources Department One",
+      "secret_key": "ca4ef32fa3b98d651b49b40a03ab59abed9b1a2c48a8b198adbfeda576b371b6",
+      "source_id": "S-HR1"
+    },
+    {
+      "name": "Human Resources Department Two",
+      "secret_key": "145c6bec61e9c7678155733c3e37b9befee6f7ed9c7edfa713857e7339182ba7",
+      "source_id": "S-HR2"
+    },
+    {
+      "name": "Human Resources Department Three",
+      "secret_key": "116b57a8cd37b3f95c9990913fe7b471990609ec158798860462e8dd5749c41f",
+      "source_id": "S-HR3"
+    }
+  ],
+  "version": 1
+}

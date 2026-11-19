@@ -1,0 +1,51 @@
+{
+  "authority_lists": [
+    {
+      "area": "ZONE-A",
+      "sources": [
+        "S-HR1"
+      ],
+      "valid_from": "2026-03-01",
+      "valid_to": null
+    }
+  ],
+  "batch_id": "B06-invalid-half",
+  "events": [
+    {
+      "event_id": "E-HR3-02",
+      "payload": {
+        "conclusion": "grant",
+        "event_id": "E-HR3-02",
+        "kind": "grant",
+        "person": "P-1001",
+        "replaces": null,
+        "source": "S-HR3",
+        "source_seq": 2,
+        "valid_from": "2026-03-01",
+        "valid_to": "2026-03-10"
+      },
+      "payload_hash": "4beee00f94bcf8793324b0f6b3cde0c517bd2e7c8aa14fa25554333fb7a9025d",
+      "signature": "9c31a746038534696f6469ae7e7960df26b059cde1bbbf7a60de404309c1936d",
+      "source": "S-HR3",
+      "source_seq": 2
+    },
+    {
+      "event_id": "E-HR3-03",
+      "payload": {
+        "conclusion": "revoke",
+        "event_id": "E-HR3-03",
+        "kind": "correction",
+        "person": "P-1001",
+        "replaces": "E-NOPE-99",
+        "source": "S-HR3",
+        "source_seq": 3,
+        "valid_from": "2026-03-05",
+        "valid_to": "2026-03-08"
+      },
+      "payload_hash": "84e0fca1cb298f9ec523ebac1ad5d6f8326999ff829bfa491de39187c9b33571",
+      "signature": "6ab83e7288e340fb94869eccffbb01f93a3e3d462b84de71c83a23be6c32066e",
+      "source": "S-HR3",
+      "source_seq": 3
+    }
+  ]
+}
